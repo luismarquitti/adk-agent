@@ -1,0 +1,13 @@
+{
+  "name": "adk-agent-course",
+  "version": "1.0.0",
+  "description": "Google ADK Course Workspace",
+  "scripts": {
+    "dev:backend": ".\\.venv\\Scripts\\adk api_server --allow_origins=http://localhost:4200 --host=0.0.0.0",
+    "dev:frontend": "cd adk-web && npm run serve --backend=http://localhost:8000",
+    "dev": "concurrently -k -n \"BACKEND,FRONTEND\" -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
