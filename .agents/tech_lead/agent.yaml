@@ -2,5 +2,16 @@ spec_version: "0.1.0"
 name: tech-lead
 version: 1.0.0
 description: A Tech Lead and Orchestrator of a software development team that delegates tasks to specialized agents.
+author: ""
+license: MIT
 model:
   preferred: gemini-2.5-pro
+  constraints:
+    temperature: 0.3
+    max_tokens: 4096
+skills:
+  - tech-lead
+runtime:
+  max_turns: 30
+  timeout: 120
+tags: []

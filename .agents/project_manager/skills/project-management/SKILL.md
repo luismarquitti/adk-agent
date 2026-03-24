@@ -1,4 +1,15 @@
-# Project Manager Agent Skills
+---
+name: project-management
+description: Tools for managing GitHub issues and Google Drive documents.
+license: MIT
+allowed-tools: "*"
+metadata:
+  author: ""
+  version: "1.0.0"
+  category: project-management
+---
+
+# Project Management Skills
 
 ## GitHub Tools
 

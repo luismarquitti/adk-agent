@@ -2,5 +2,16 @@ spec_version: "0.1.0"
 name: workflow-facade
 version: 1.0.0
 description: The main interface for Module 04 (Complex Workflows) that orchestrates SWEBOK V4 document generation.
+author: ""
+license: MIT
 model:
   preferred: gemini-2.5-pro
+  constraints:
+    temperature: 0.3
+    max_tokens: 4096
+skills:
+  - workflow-facade
+runtime:
+  max_turns: 30
+  timeout: 120
+tags: []

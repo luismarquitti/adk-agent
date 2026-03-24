@@ -1,4 +1,15 @@
-# Tech Lead Agent Skills
+---
+name: tech-lead
+description: Tools for orchestrating specialized sub-agents.
+license: MIT
+allowed-tools: "*"
+metadata:
+  author: ""
+  version: "1.0.0"
+  category: tech-lead
+---
+
+# Tech Lead Skills
 
 ## Specialized Agents (Tools)
 

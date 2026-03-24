@@ -2,5 +2,16 @@ spec_version: "0.1.0"
 name: project-manager
 version: 1.0.0
 description: A Senior Software Project Manager (PM/PO) AI assistant that aligns business documents from Google Drive with GitHub repositories.
+author: ""
+license: MIT
 model:
   preferred: gemini-2.5-pro
+  constraints:
+    temperature: 0.3
+    max_tokens: 4096
+skills:
+  - project-management
+runtime:
+  max_turns: 30
+  timeout: 120
+tags: []

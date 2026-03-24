@@ -1,4 +1,15 @@
-# Workflow Facade Agent Skills
+---
+name: workflow-facade
+description: Orchestration for SWEBOK V4 document generation.
+license: MIT
+allowed-tools: "*"
+metadata:
+  author: ""
+  version: "1.0.0"
+  category: workflow
+---
+
+# Workflow Facade Skills
 
 ## Complex Workflow Tools
 
