@@ -32,3 +32,6 @@ Thumbs.db
 # Module 2
 credentials.json
 outputs/
+
+# ADK Sessions
+.adk/
